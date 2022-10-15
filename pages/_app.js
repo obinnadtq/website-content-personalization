@@ -4,6 +4,8 @@ import manifest from "../contextManifest.json";
 
 import '../styles/globals.css'
 
+import '../styles/pages.css'
+
 const context = new Context({
   manifest,
   defaultConsent: true,

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "home",
+        "url": "/",
+        "fields": {
+          "title": "Home",
+          "description": "As you navigate around, content will change."
+        }
+      },
+      {
+        "id": "testing",
+        "fields": {
+          "title": "Home",
+          "description": "You triggered the architecture signal."
+        }
+      }
+]
