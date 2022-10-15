@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          YOLO
+          YOLO1
         </h1>
       </main>
     </div>
