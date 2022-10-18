@@ -1,8 +1,13 @@
 {
   "project": {
     "pz": {
+      "enr": {
+        "1": {
+          "cap": 100
+        }
+      },
       "sig": {
-        "testing": {
+        "isInLublin": {
           "str": 50,
           "cap": 100,
           "dur": "p",
@@ -11,12 +16,33 @@
             "type": "G",
             "clauses": [
               {
-                "path": {
+                "key": "ntl-city",
+                "type": "QK",
+                "match": {
                   "cs": false,
                   "op": "=",
-                  "rhs": "/testing"
-                },
-                "type": "PV"
+                  "rhs": "Lublin"
+                }
+              }
+            ]
+          }
+        },
+        "isInWarsaw": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "ntl-city",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "Warsaw"
+                }
               }
             ]
           }
