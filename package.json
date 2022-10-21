@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "copy:deno": "cpx node_modules/@uniformdev/context-edge-netlify/dist/index.deno.js lib/uniform",
     "dev": "npm run download:manifest && next dev",
     "build": "npm run download:manifest && next build",
     "download:manifest": "uniform context manifest download --output ./contextManifest.json",
@@ -13,6 +14,8 @@
     "@uniformdev/canvas": "^17.3.0",
     "@uniformdev/canvas-react": "^17.3.0",
     "@uniformdev/context": "^17.3.0",
+    "@uniformdev/context-edge-netlify": "^17.3.0",
+    "@uniformdev/context-next": "^17.3.0",
     "@uniformdev/context-react": "^17.3.0",
     "next": "12.3.1",
     "react": "18.2.0",
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "@uniformdev/cli": "^17.3.0",
+    "cpx": "^1.5.0",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1"
   }

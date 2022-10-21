@@ -1,13 +1,8 @@
 {
   "project": {
     "pz": {
-      "enr": {
-        "1": {
-          "cap": 100
-        }
-      },
       "sig": {
-        "isInLublin": {
+        "isInGermany": {
           "str": 50,
           "cap": 100,
           "dur": "p",
@@ -16,18 +11,18 @@
             "type": "G",
             "clauses": [
               {
-                "key": "ntl-city",
+                "key": "ntl-country-code",
                 "type": "QK",
                 "match": {
                   "cs": false,
                   "op": "=",
-                  "rhs": "Lublin"
+                  "rhs": "DE"
                 }
               }
             ]
           }
         },
-        "isInWarsaw": {
+        "isInPoland": {
           "str": 50,
           "cap": 100,
           "dur": "p",
@@ -36,12 +31,12 @@
             "type": "G",
             "clauses": [
               {
-                "key": "ntl-city",
+                "key": "ntl-country-code",
                 "type": "QK",
                 "match": {
                   "cs": false,
                   "op": "=",
-                  "rhs": "Warsaw"
+                  "rhs": "PL"
                 }
               }
             ]
